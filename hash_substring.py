@@ -31,7 +31,7 @@ def get_occurrences(pattern, text):
 
     # and return an iterable variable
     ####return [0]
-    p = 31
+    p = 37
     m = len(pattern)
     n = len(text)
     p_kv = [1] * (n + 1)

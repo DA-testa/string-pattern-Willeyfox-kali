@@ -39,7 +39,6 @@ def get_occurrences(pattern, text):
     for i in range(1, n + 1):
         p_kv[i] = p_kv[i - 1] * p
         h[i] = (h[i - 1] + ord(text[i - 1]) * p_kv[i - 1])
-
     pattern_hash = 0
     for i in range(m):
         pattern_hash += ord(pattern[i]) * p_kv[i]

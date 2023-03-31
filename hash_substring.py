@@ -8,7 +8,7 @@ def read_input():
         pattern = input().rstrip()
         text = input().rstrip()
     else:
-        with open("tests"+input_file) as f:
+        with open ("./test/06", 'r') as f:
             pattern = f.readline().rstrip()
             text = f.readline().rstrip()
     
@@ -16,7 +16,6 @@ def read_input():
     # read two lines 
     # first line is pattern 
     # second line is text in which to look for pattern 
-    
     # return both lines in one return
     return pattern, text
     # this is the sample return, notice the rstrip function

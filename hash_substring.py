@@ -20,7 +20,7 @@ def read_input():
     # return both lines in one return
     return pattern, text
     # this is the sample return, notice the rstrip function
-    # ####return (input().rstrip(), input().rstrip())
+    # return (input().rstrip(), input().rstrip())
 
 def print_occurrences(output):
     # this function should control output, it doesn't need any return
@@ -30,7 +30,7 @@ def get_occurrences(pattern, text):
     # this function should find the occurances using Rabin Karp alghoritm 
 
     # and return an iterable variable
-    ####return [0]
+    # return [0]
     p = 37
     m = len(pattern)
     n = len(text)
